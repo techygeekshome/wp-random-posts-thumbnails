@@ -1,0 +1,16 @@
+ul.wpb-rand-posts {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.wpb-rand-posts li {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    width: calc( ( 100% - 40px ) / 5 );
+}
+
+.wpb-rand-posts li:first-child {
+    margin-left: 0;
+}
